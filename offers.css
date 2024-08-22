@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure content is vertically centered */
+    padding: 8px 30px; /* Add padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  }
+  
+  /* Style the logo container */
+  .logo {
+    width: 120px; /* Increase the width for better visibility */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Style the images inside the header */
+  header img {
+    width: 50px; /* Increase the size for better visibility */
+    height: 50px;
+    cursor: pointer;
+    padding: 5px; /* Adjust padding */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  header img:hover {
+    transform: scale(1.4); /* Slightly enlarge the image on hover */
+  }
+  
+  /* Style the navigation list */
+  header ul {
+    list-style: none;
+    display: flex; /* Display items horizontally */
+    gap: 40px;
+  }
+  
+  /* Style individual list items */
+  header ul li {
+    font-size: 16px; /* Adjust font size */
+    font-weight: 500; /* Medium font weight */
+  }
+  
+  header ul li a {
+    color: #fff; /* Keep text color white */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Add padding around links */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  header ul li a:hover {
+    background-color: gray;
+    transform: scale(1.2);
+  }
+body {
+    background-color: #121212; /* Dark background for the entire page */
+    color: #e0e0e0; /* Light text color */
+    font-family: Arial, sans-serif;
+}
+
+.offers {
+    padding: 20px;
+    background-color: #1e1e1e; /* Slightly lighter dark background for content */
+}
+
+.offers h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Light text color */
+}
+
+.offers p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #b0b0b0; /* Slightly lighter text color for paragraphs */
+    margin-bottom: 30px;
+}
+
+.offer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.offer-card {
+    background-color: #2c2c2c; /* Dark background for offer cards */
+    border: 1px solid #444; /* Slightly lighter border for contrast */
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+}
+
+.offer-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #444; /* Border to separate image from text */
+    margin-bottom: 15px;
+}
+
+.offer-card h2 {
+    font-size: 1.5em;
+    color: #e0e0e0; /* Light text color */
+    margin-bottom: 10px;
+}
+
+.offer-card p {
+    font-size: 1em;
+    color: #b0b0b0; /* Slightly lighter text color */
+    margin-bottom: 15px;
+}
+
+.offer-card .price {
+    font-size: 1.2em;
+    color: #e0e0e0; /* Light text color */
+    margin-bottom: 15px;
+    display: block;
+}
+
+.offer-card button {
+    background-color: #444; /* Dark button background */
+    color: #e0e0e0; /* Light button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.offer-card button:hover {
+    background-color: #555; /* Slightly lighter dark color on hover */
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+}
+.footer-content ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+
+}
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-content ul li a:hover {
+    color: #f1c40f; /* Change to desired hover color */
+}

@@ -1,0 +1,179 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensure content is vertically centered */
+  padding: 8px 30px; /* Add padding for spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Style the logo container */
+.logo {
+  width: 120px; /* Increase the width for better visibility */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style the images inside the header */
+header img {
+  width: 50px; /* Increase the size for better visibility */
+  height: 50px;
+  cursor: pointer;
+  padding: 5px; /* Adjust padding */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+header img:hover {
+  transform: scale(1.4); /* Slightly enlarge the image on hover */
+}
+
+/* Style the navigation list */
+header ul {
+  list-style: none;
+  display: flex; /* Display items horizontally */
+  gap: 40px;
+}
+
+/* Style individual list items */
+header ul li {
+  font-size: 16px; /* Adjust font size */
+  font-weight: 500; /* Medium font weight */
+}
+
+header ul li a {
+  color: #fff; /* Keep text color white */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 15px; /* Add padding around links */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+header ul li a:hover {
+  background-color: gray;
+  transform: scale(1.2);
+}
+
+/* Additional styles for better visual hierarchy */
+body {
+  font-family: "Quicksand", sans-serif; /* Apply Quicksand font */
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+}
+
+.planet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+
+.planet h1{
+    padding: 5px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img {
+  width: 300px;
+  height: 300px;
+}
+
+.content img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.content p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  color: aliceblue;
+  padding: 50px 200px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  
+}
+
+.planet button {
+  display: block; /* Makes the button take up the full width, pushing it below the paragraph */
+
+  padding: 15px;
+  background-color: beige;
+  font-size: 15px;
+  border-radius: 20px;
+  font:bold;
+}
+
+.planet button:hover {
+  background-color: rgb(216, 216, 189);
+ transform: scale(1.1);
+
+}
+.circular-image {
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+}
+.footer-content ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+
+}
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-content ul li a:hover {
+    color: #f1c40f;
+    transform: scale(1.1); /* Change to desired hover color */
+}
+
+

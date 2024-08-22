@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+</head>
+<style>
+    *{
+       margin: 0;
+       padding: 0;
+    }
+
+    body {
+  font-family: "Quicksand", sans-serif; /* Apply Quicksand font */
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+}
+    header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ensure content is vertically centered */
+  padding: 8px 30px; /* Add padding for spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Style the logo container */
+.logo {
+  width: 120px; /* Increase the width for better visibility */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style the images inside the header */
+header img {
+  width: 50px; /* Increase the size for better visibility */
+  height: 50px;
+  cursor: pointer;
+  padding: 5px; /* Adjust padding */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+header img:hover {
+  transform: scale(1.4); /* Slightly enlarge the image on hover */
+}
+
+/* Style the navigation list */
+header ul {
+  list-style: none;
+  display: flex; /* Display items horizontally */
+  gap: 40px;
+}
+
+/* Style individual list items */
+header ul li {
+  font-size: 16px; /* Adjust font size */
+  font-weight: 500; /* Medium font weight */
+}
+
+header ul li a {
+  color: #fff; /* Keep text color white */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px 15px; /* Add padding around links */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+header ul li a:hover {
+  background-color: gray;
+  transform: scale(1.2);
+}
+
+h1{
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 600;
+    color: blanchedalmond;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 70%;
+    padding: 20px;
+    font-family: cursive;
+    font-size: 18px;
+    color: floralwhite;
+}
+
+.contact{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 7px;
+    align-items: flex-start;
+    max-width: 400px;
+    }
+
+.contact h1{
+    font-size: 34px;
+    color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact p{
+    font-size: 18px;
+    font: bolder;
+    color: white;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 40px 50px;
+    background-color: #ebb8bf;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+ 
+ form button {
+    text-size-adjust: 20px;
+    width: 60%;
+    padding: 10px;
+    background-color: #463939;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+form button:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+}
+.footer-content ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 16px;
+
+}
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-content ul li a:hover {
+    color: #f1c40f; /* Change to desired hover color */
+}
+ 
+
+
+</style>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/planet_16793498.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="offer.html">Offers</a></li>
+                <li><a href="#" class="notadded">Buy Now</a></li>
+                <li><a href="#" class="notadded2">Sell Now</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    
+
+    </header>
+    <div class="about" style="padding: 20px;">
+        <h1>About Us</h1> 
+    </div>
+    <div class="content">
+        Welcome to Planet Emporium! We are dedicated to bringing the wonders of the cosmos right to your fingertips with our stunning 3D planet models. Founded in 2024, our mission is to make the beauty of the solar system accessible to everyone. <br><br>
+
+Our team, led by visionary space enthusiasts, is passionate about creating high-quality 3D representations of the planets. We believe in the power of exploration and the importance of bringing the mysteries of space closer to Earth. <br><br>
+
+Our products, including meticulously crafted 3D models of planets like Mercury, Venus, and Mars, are designed to ignite your curiosity and enhance your understanding of the universe. Each model is created with precision, ensuring that every detail is captured, allowing you to experience the planets as if you were there. <br><br>
+
+For any inquiries or to learn more, feel free to contact us. <br><br>
+</div>
+
+<div class="contact">
+    <h1>
+        Contact Us
+    </h1>
+    <p>Email: contact@planetemporium.com
+    </p>
+    <p>Phone: +123 456 7890</p>
+    <p>Address: Sector 73, Noida, Uttar Pradesh
+    </p>
+<form action="/submit message" method="post">
+        <label for="name">
+            Your Name:
+            <input type="text" name="name" id="name" required>
+        </label>
+        <label for="email">
+            Your Email:
+            <input type="email" name="email" id="email" required>
+        </label>
+        <label for="message">
+            Your Message:
+            <textarea name="message" id="message" cols="30" rows="10"></textarea required>
+        </label>
+        <button class="btn">
+            Send Message
+        </button>
+    </form>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/planet_16793498.png" alt="Company Logo">
+            </div>
+            <div class="footer-content">
+                <ul class="footer-list">
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Payment and Shipping</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <ul class="footer-list">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Buy Mercury</a></li>
+                    <li><a href="#">Buy Venus</a></li>
+                    <li><a href="#">Buy Earth</a></li>
+                    <li><a href="#">Buy Mars</a></li>
+                    <li><a href="#">Buy Jupiter</a></li>
+                    <li><a href="#">Buy Saturn</a></li>
+                    <li><a href="#">Buy Uranus</a></li>
+                    <li><a href="#">Buy Neptune</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+         const notadded2 = document.querySelector(".notadded2")
+        const notaddedelements = document.querySelector(".notadded");
+        notaddedelements.addEventListener("click" , () => { 
+            alert("Not added now will add later");
+        });
+        notadded2.addEventListener("click" , () => { 
+            alert("Not added now will add later");
+        });
+        
+        const formbtn = document.querySelector(".btn")
+        formbtn.addEventListener("click" , () => {
+            const name = document.querySelector("#name").value;
+            const email = document.querySelector("#email").value;
+            if(name === ""
+                || email === ""){
+                    alert("Please fill in the form");
+                    }
+                    else{
+                        alert("Thank you for your interest in our company");}
+                        });
+                        </script>
+</body>
+</html>
